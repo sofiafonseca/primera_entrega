@@ -15,6 +15,7 @@
   }
 }
 
+
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
@@ -35,3 +36,23 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+#landing{
+    background-image: url(img/fondo.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+body {font-family: 'Poppins', sans-serif;}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.card img{filter: grayscale(1);
+transition: all ease 1s;}
+
+.card:hover img{filter: grayscale(0);}
+
